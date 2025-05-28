@@ -1,7 +1,5 @@
-// ===============================
-// Navigation Toggle Functionality
-// ===============================
 
+// Navigation Toggle Functionality
 // Select the navigation toggle button (☰)
 const navToggle = document.querySelector('.nav-toggle');
 
@@ -14,30 +12,27 @@ navToggle.addEventListener('click', () => {
 });
 
 
-// ===============================
-// Mouse Glow Effect
-// ===============================
+// cursor parlatma
 
 // Create a glow element that follows the cursor
 document.addEventListener('mousemove', function(e) {
   let glow = document.querySelector('.glow'); // Look for existing glow
 
   if (!glow) {
-    // If glow doesn't exist, create it and add to body
+    
     glow = document.createElement('div');
     glow.classList.add('glow');
     document.body.appendChild(glow);
   }
 
-  // Update glow position to follow cursor
+  // glow position to follow cursor
   glow.style.top = e.pageY + 'px';
   glow.style.left = e.pageX + 'px';
 });
 
 
-// ===============================
+
 // Typing Animation on Page Load
-// ===============================
 
 // Apply a typing and blinking cursor animation when the page loads
 document.addEventListener("DOMContentLoaded", function() {
@@ -48,11 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// ===============================
-// Email Button Function
-// ===============================
+// Email Butonu ex
 
-// Opens the user's default email client to send a message
 function sendEmail() {
   window.location.href = "mailto:your-email@example.com";
 }
