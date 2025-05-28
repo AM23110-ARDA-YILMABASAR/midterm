@@ -1,0 +1,103 @@
+<!-- This file is written in standard HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- This section sets the title and links the CSS -->
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies - Arda Yılmabaşar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<!-- Everything visible on the webpage starts here -->
+<body>
+  <!-- The top section with my name, picture, and navigation -->
+  <header class="site-header"><div class="container">
+    <!-- My profile picture -->
+    <img src="images/profile.jpg" alt="Photo of Arda Yılmabaşar" class="profile-img">
+    <!-- My full name displayed as the page title -->
+    <h1>Arda Yılmabaşar</h1>
+      <!-- A clickable button to send me an email -->
+      <button onclick="sendEmail()" class="email-button">Email Me!</button>
+    <p class="tagline">2nd-year, 2nd-semester Mechanical Engineering Student at Shibaura Institute of Technology</p>
+    <p class="student-id">Student ID: AM23110</p>
+    <!-- The navigation bar to jump between sections -->
+    <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="skills.html">Skills & Tools</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+  </div></header>
+  <!-- This is the main section that lists my hobbies and shows photos -->
+  <section class="hobbies"><div class="container">
+    <!-- The heading for this section -->
+    <h2>Hobbies</h2>
+    
+<!-- List of my hobbies starts here -->
+<ul class="hobbies-list">
+    <li>Photography</li>
+<div class="container">
+  <!-- This paragraph introduces my Tokyo Tower photo -->
+  <p>My favorite picture I took from Tokyo Tower:</p>
+  <img src="images/zoujoji_temple.jpg" alt="Zoujoji Temple" class="project-img">
+</div>
+
+  <li>Coin Collecting</li>
+<div class="container">
+  <!-- Showing off my coin collection book -->
+  <p>My coin collection book:</p>
+  <img src="images/coin_collection_book.jpg" alt="Coin Collection Book" class="project-img">
+</div>
+<div class="container">
+  <!-- First design of the 5 yen coin -->
+  <p>1st iteration of the 5 yen coin:</p>
+  <div class="coin-iteration">
+    <img src="images/5yen_front.jpg" alt="5 yen coin front" class="project-img">
+    <img src="images/5yen_back.jpg" alt="5 yen coin back" class="project-img">
+  </div>
+</div>
+<div class="container">
+  <!-- Second design of the 5 yen coin -->
+  <p>2nd iteration of the 5 yen coin:</p>
+  <div class="coin-iteration">
+    <img src="images/5yen2_front.jpg" alt="5 yen coin 2nd iteration front" class="project-img">
+    <img src="images/5yen2_back.jpg" alt="5 yen coin 2nd iteration back" class="project-img">
+  </div>
+</div>
+<div class="container">
+  <!-- Third design of the 5 yen coin -->
+  <p>3rd iteration of the 5 yen coin:</p>
+  <div class="coin-iteration">
+    <img src="images/5yen3_front.jpg" alt="5 yen coin 3rd iteration front" class="project-img">
+    <img src="images/5yen3_back.jpg" alt="5 yen coin 3rd iteration back" class="project-img">
+  </div>
+</div>
+  <li>Leisure Skiing</li>
+<div class="container">
+  <!-- A skiing trip I went on in 2023 -->
+  <p>2023 Niigata skiing trip:</p>
+  <img src="images/niigata_ski_trip.jpg" alt="Niigata Skiing Trip" class="project-img">
+</div>
+<div class="container">
+  <!-- Another skiing trip, this one in 2024 -->
+  <p>2024 Gunma skiing trip:</p>
+  <img src="images/gunma_ski_trip.jpg" alt="Gunma Skiing Trip" class="project-img">
+</div>
+
+
+
+</ul>
+
+  </div></section>
+  <!-- Footer of the page -->
+  <footer class="site-footer"><div class="container"><p>&copy; 2025 Arda Yılmabaşar</p></div></footer>
+  <!-- JavaScript file that makes the navigation and effects work -->
+  <script src="js/main.js"></script>
+  
+</body>
+</html>

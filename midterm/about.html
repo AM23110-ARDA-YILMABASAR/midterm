@@ -1,0 +1,68 @@
+<!-- This tells the browser we’re using standard HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- This part sets up the page’s title and links to the CSS file -->
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Arda Yılmabaşar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<!-- Everything inside the <body> tag is what the user sees on the page -->
+<body>
+  <!-- Here’s the top part of the page with my name, profile, and navigation menu -->
+  <header class="site-header"><div class="container">
+    
+    <!-- My name is the main title on the page -->
+    <h1>Arda Yılmabaşar</h1>
+      <!-- This button lets people quickly email me -->
+      <button onclick="sendEmail()" class="email-button">Email Me!</button>
+    <p class="tagline">2nd-year, 2nd-semester Mechanical Engineering Student at Shibaura Institute of Technology</p>
+    <p class="student-id">Student ID: AM23110</p>
+    <!-- This is the menu to navigate to other pages like Projects, Hobbies, etc. -->
+    <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="skills.html">Skills & Tools</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+      
+  </div></header>
+  <!-- This section gives people a detailed intro about who I am -->
+  <section class="about"><div class="container">
+    <h2>About Me</h2>
+    
+
+<p>Merhaba! I’m Arda Yılmabaşar, a passionate and curious Mechanical Engineering student currently in my second year at Shibaura Institute of Technology in Tokyo, Japan. Originally from Istanbul, Turkey, I have always been fascinated by the intersection of design, manufacturing, and innovation.</p>
+
+<p>My academic focus lies in areas like CNC machining, 3D printing, and digital manufacturing systems. Outside the classroom, I enjoy exploring hands-on engineering challenges, developing startup ideas, and learning about how modern technology transforms traditional industries.</p>
+
+<p>Having grown up around automation equipment due to my father’s business, I developed an early interest in precision machinery, which naturally led me to pursue mechanical engineering. Since then, I’ve taken part in research projects, design expos, and even startup bootcamps, continuously expanding my technical and entrepreneurial skills.</p>
+
+<p>In my free time, I enjoy skiing in Japan’s scenic mountains, collecting coins, and building model airplanes. I thrive in multicultural environments and love making new friends while discovering different perspectives.</p>
+
+<!-- Here are some quick facts about me like my school, major, and where I live -->
+<ul class="info-list">
+  <li><strong>Institution:</strong> Shibaura Institute of Technology</li>
+  <li><strong>Major:</strong> Mechanical Engineering</li>
+  <li><strong>Year & Semester:</strong> 2nd-year, 2nd-semester</li>
+  <li><strong>Student ID:</strong> AM23110</li>
+  <li><strong>Location:</strong> Tokyo, Japan</li>
+</ul>
+      <!-- A photo of me in front of the Glico Man in Osaka — just to add a personal touch -->
+      <img src="images/arda_in_osaka.jpg" alt="Arda in front of Glico Man in Osaka" class="about-img">
+
+  </div></section>
+  <!-- The bottom part of the page with copyright info -->
+  <footer class="site-footer"><div class="container"><p>&copy; 2025 Arda Yılmabaşar</p></div></footer>
+  <!-- This links to the JavaScript that handles menu toggling and other effects -->
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
